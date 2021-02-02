@@ -2,6 +2,7 @@
 /*********** Tag Selectors ********************/
 body{
     margin: 0;
+    background-color: powderblue;
 }
 
 h1{
@@ -14,5 +15,18 @@ div{
 
 
 /*********** Class Selectors ********************/
-
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.cloud{
+    height: 100px;
+    width: 250px;
+}
 /*********** Id Selectors ********************/
