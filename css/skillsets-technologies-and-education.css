@@ -26,13 +26,13 @@ img{
     margin: 0px;
 }
 a{
-    color: #11999E;
+    color: #66bfbf;
     font-family: 'Montserrat', serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 a:hover{
-    color: #eaf6f6;
+    color: #3498DB;
 }
 
 /*********** Class Selectors ********************/
