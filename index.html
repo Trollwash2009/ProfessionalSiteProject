@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Sam's Professional Site</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="icon" href="favicon.ico">
-    </head>
-    <body>
-        <div class="top-container">
-            <img class="cloud" src="images/cloud.png" alt="cloud-image">
-            <h1>I'm Sam</h1>
-            <p>A Software/Web Developer</p>
-            <img class="cloud" src="images/cloud.png" alt="cloud-image">
-            <img src="images/land.svg" alt="mountain-image">
+  <head>
+    <title>Sam's Professional Site</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-image" />
+      <div class="top-text">
+        <h1>I'm Sam</h1>
+        <p>A <span class="top-span">Software/Web</span> Developer</p>
+      </div>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image" />
+      <img class="landscape" src="images/land.svg" alt="mountain-image" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img id="headshot" src="images/Head Shot cropped.png" alt="">
+        <h2>Hello.</h2>
+        <p id="intro">I am a .NET full stack developer, with over 16 years development experience. I have developed mainly desktop and back-end applications using a variety of languages and technologies.</p>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img src="images/dev-Skill.png" alt="">
+          <h3>Development Languages and Technologies:</h3>
+          <p class="skills">I have developed desktop applications in a variety of languages including Delphi, C++, .NET & .Net Core/C#. I have focused mainly on desktop and back-end development using
+            a variety of technologies including with WPF (windows Presentation Foundation), WCF (Windows Communication Foundation), Entity framework, LINQ & service development. and some basic web development using Angular and ASP.NET.</p>
         </div>
-        <div class="middle-container">
-            <h2>Personality and Attributes:</h2>
-            <ul>
-                <li>Easy going</li>
-                <li>Down to earth</li>
-                <li>High energy work ethic</li>
-                <li>Dedicated, loyal and hardworking</li>
-                <li>I work very well in teams</li>
-                <ul>
-                    <li>Willing to learn from others</li>
-                    <li>Willing to share my knowledge with teammates</li>
-                </ul>
-                <li>A good communicator</li>
-                <ul>
-                    <li>People person</li>
-                    <li>Able to patiently communicate technical details or knowledge to non-technical personnel</li>
-                </ul>
-                <li><b>Languages:</b></li>
-                <ul>
-                    <li>Hebrew</li>
-                    <li>English (Mother Tongue)</li>
-                </ul>
-            </ul>
-            <hr>
-        
-            <h2></h2><em><strong><a href="Skillsets-and-technologies.html">Computer Skills, Programming languages, Work environments & Protocols</a></strong></em></h2>
-        
-        
-            <h2><em><strong><a href="Employment-History.html">Employment History</a></strong></em></h2>
-        
+        <div class="skill-row">
+          <img class="skills" src="images/skills2.svg" alt="">
+          <h3>Other Skills</h3>
+          <p>I have experience using various ORMs (including Entity Framewok and nHibernate), databases (including SQL Server, MySQL, Elasticsearch & MongoDB). I also have experience using various Source control systems including SubVersion, 
+            Git, Mercurial And TFS, as well as a number of different methodologies among these Agile/Scrum, Test-driven Development (TDD), Object Orientated Design or Programming (OOD/P), Domain Driven Design and Design Patterns</p>
         </div>
-        <div class="bottom-container">
-
-        </div>
-    </body>
+        <h2></h2><em><strong><a href="pages/Skillsets-technologies-and-education.html">Full list of Computer Skills, Programming languages, Work environments & Protocols</a></strong></em></h2>
+        <br>
+        <br>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="pages/Contact-me.html">CONTACT ME</a>
+      </div>
+    </div>
+    
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="www.linkedin.com/in/samwashkansky">LinkedIn</a>
+      <p>© 2018 Sam Washkansky.</p>
+    </div>
+  </body>
 </html>

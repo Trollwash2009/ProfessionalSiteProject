@@ -2,31 +2,97 @@
 /*********** Tag Selectors ********************/
 body{
     margin: 0;
-    background-color: powderblue;
+    background-color: #e4f9f5;
+    text-align: center;
+    font-family: 'Merriweather Sans', serif;
 }
 
 h1{
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', serif;    
+}
+h3{
+    font-family: 'Montserrat', serif;
 }
 div{
     background-color: #e4f9f5;
     margin: 0;
 }
+img{margin: 0px;}
 
 
 /*********** Class Selectors ********************/
-.middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    display: block;
+    background-color: #e4f9f5;
+    margin: 0;
 }
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+.top-text{
+    position: relative;
+    top: 100px;
 }
-.cloud{
+.top-cloud{
+    position: absolute;
     height: 100px;
     width: 250px;
+    top: 50px;
+    right: 20px;
 }
+.bottom-cloud{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    top: 300px;
+}
+.landscape{
+    position: relative;
+    top: 250px; 
+    margin: 0 auto; 
+}
+.top-span{
+    text-decoration: underline;
+}
+.middle-container{
+    position: relative;
+    display: block;
+    top: 246px; 
+}
+.bottom-container{
+    position: relative;
+    display: block;
+    top: 246px;
+}
+.contactme-form{
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+}
+.links-table{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.skills{
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
 /*********** Id Selectors ********************/
+#headshot{
+    height: 120px;
+    width: 100px;
+    padding-top: 20px;
+}
+#intro
+{
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
