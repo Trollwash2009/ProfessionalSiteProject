@@ -2,9 +2,10 @@
 /*********** Tag Selectors ********************/
 body{
     margin: 0;
-    background-color: #e4f9f5;
     text-align: center;
     font-family: 'Merriweather Sans', serif;
+    color: #40514E;
+    background-color: #e4f9f5;
 }
 
 h1{
@@ -18,6 +19,7 @@ h2{
     font-size: 1.5rem;  
     color: #66BFBF; 
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Montserrat', serif;
@@ -28,6 +30,27 @@ div{
     margin: 0;
 }
 img{margin: 0px;}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+    margin: 100px auto;
+}      
+p{
+    line-height: 2;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
 
 
 /*********** Class Selectors ********************/
@@ -54,11 +77,12 @@ img{margin: 0px;}
     height: 100px;
     width: 250px;
     bottom: 100px;
+    left: 200px;
 }
 .landscape{
     position: relative;
     top: 250px; 
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .top-span{
     text-decoration: underline;
@@ -67,33 +91,84 @@ img{margin: 0px;}
     position: relative;
     display: block;
     top: 246px; 
+    margin: 100px 0;
 }
 .bottom-container{
     position: relative;
     display: block;
     top: 246px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 .links-table{
     position: relative;
     width: 500px;
     margin: 0 auto;
 }
-
-.skills{
+.skill-row{
     position: relative;
     width: 800px;
-    margin: 0 auto;
+    margin: 100px auto 100px auto;
+    text-align: left ;
 }
+.languages{
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+.other-tech{
+    width: 25%;
+    margin-right: 30px;
+    float: right;
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.contact-me-text{
+    padding-bottom: 50px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #3498DB);
+    background-image: -moz-linear-gradient(top, #11CDD4, #3498DB);
+    background-image: -ms-linear-gradient(top, #11CDD4, #3498DB);
+    background-image: -o-linear-gradient(top, #11CDD4, #3498DB);
+    background-image: linear-gradient(to bottom, #11CDD4, #3498DB);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', serif; 
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+  .copyright{
+      color: #eaf6f6;
+      font-size: 0.75rem;
+  padding: 20px 0;
+  }
 
 /*********** Id Selectors ********************/
 #headshot{
-    height: 120px;
-    width: 100px;
+    height: 200px;
+    width: 150px;
     padding-top: 20px;
 }
 #intro
 {
     position: relative;
-    width: 800px;
-    margin: 0 auto;
+    width: 30%;
+    margin: auto;
 }
