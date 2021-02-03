@@ -37,6 +37,9 @@ a:hover{
 label{
     font-family: 'Montserrat', cursive;
 }
+td{
+    text-align: left;
+}
 
 /*********** Class Selectors ********************/
 .links-table{
@@ -46,7 +49,7 @@ label{
 }
 .contactme-form{
     position: relative;
-    width: 450px;
+    width: 650px;
     margin: 0 auto;
 }
 .copyright{
@@ -61,3 +64,34 @@ label{
     background-color: #66BFBF;
     padding: 50px 0 20px;
 }
+.comment-label{
+    padding-top: 20px;
+}
+.chk-mailinglist{
+    padding-top: 20px;}
+    .btn {
+        background: #11CDD4;
+        background-image: -webkit-linear-gradient(top, #11CDD4, #3498DB);
+        background-image: -moz-linear-gradient(top, #11CDD4, #3498DB);
+        background-image: -ms-linear-gradient(top, #11CDD4, #3498DB);
+        background-image: -o-linear-gradient(top, #11CDD4, #3498DB);
+        background-image: linear-gradient(to bottom, #11CDD4, #3498DB);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Montserrat', serif; 
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #30E3CB;
+        background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+        background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+        text-decoration: none;
+      }
